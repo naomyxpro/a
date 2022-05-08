@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+</head>
+<body>
+    <nav id="Usuario">
+        <div class="logo">
+            <img src="/img/logonegro.PNG" alt="logo" class="imglogo">
+        </div>
+        <div class="menu">
+            <a href="index.html" class="prr">HOME</a>
+            <a href="nosotros.html" class="prr">NOSOTROS</a>
+            <a href="servicios.html" class="prr">SERVICIOS</a>
+            <a href="contacto.html" class="prr">CONTACTO</a>
+        </div>
+    </nav>
+    <div class="contcontacto">
+        <form action="" method="">
+            <div class="formcontenido">
+                <label for="nombre"class="titulo">Nombre y Apellido</label>
+                <div class="in">
+                    <input type="text" name="nombre" id="nombre" class="relleno" required placeholder="Nombre Completo">
+                    <span id="ayuydaNombre"></span>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="email"class="titulo">Email</label>
+                <div class="in">
+                    <input type="email" name="email" id="email"  class="relleno" required placeholder="user@gmail.com">
+                    <span id="ayuydaEmail"></span>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <input type="checkbox" name="confirmacion" id="confirmacion">
+                <label for="confirmacion">Enviame un email de confirmacion</label>
+            </div>
+            <div class="formcontenido">
+                <label for="asunto"class="titulo">Asunto</label>
+                <div class="in">
+                    <input type="text" name="asunto" id="asunto" class="relleno"  required placeholder="Reservación">
+                    <span id="ayuydaAsunto"></span>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="suscripcion" class="titulo">Seleccione uno:</label>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="newsPromo" value="newsPromo" checked>
+                    <label for="newsPromo">He visitado el Palacio de Sal en Uyuni dos veces o más</label>
+                </div>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="news" value="news">
+                    <label for="news">He visitado el Palacio de Sal en Uyuni una vez</label>
+                </div>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="noNewsPromo" value="noNewsPromo">
+                    <label for="noNewsPromo">No he visitado el Palacio de Sal en Uyuni</label>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="conciertos" class="titulo">¿Desde dónde nos escribes?</label>
+                <div class="in">
+                    <select name="conciertos" id="paises">
+                        <option value="CON1" selected>Bolivia</option>
+                        <option value="CON2">Estados Unidos</option>
+                        <option value="CON3">Perú</option>
+                        <option value="CON4">México</option>
+                        <option value="CON5">Chile</option>
+                        <option value="CON6">Colombia</option>
+                        <option value="CON7">Ecuador</option>
+                        <option value="CON8">Argentina</option>
+                        <option value="CON9">Otro</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formcontenido">
+                <label for="mensaje"class="titulo">Mensaje</label>
+                <div class="in"><textarea id="mensaje" name="mensaje" rows="10" cols="54"></textarea></div>
+            </div>
+            <div class="formcontenido" id="enviarcancelar">
+                <input type="submit" class="visitweb" value="Enviar">
+                <input type="reset" class="visitweb" id="cancelar" value="Cancelar">
+            </div>
+        </form>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.876329126571!2d-66.97617998515803!3d-20.305385486394638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f819ed0aafbbb%3A0x2ebd9941566daa98!2sPalacio%20de%20Sal!5e0!3m2!1ses-419!2sbo!4v1651972529180!5m2!1ses-419!2sbo" width="600" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+        </div>
+    </div>
+    <script src="/js/scriptcontacto.js">
+
+    </script>
+</body>
+<footer>
+    <p> Copyright © 2022 derechos reservados. Santa Cruz - Bolivia</p>
+    <a href="clima.html"><img src="/img/kisspng-ios-7-weather-computer-icons-iphone-ios-5adab94196a697.3057354815242837136171.png" alt="clima" class="climaimg"></a><
+</footer>
+</html>
