@@ -4,9 +4,9 @@
     
 }
 .contenedor{
-    background-image: url(Hotel-Palácio-de-Sal-boat-shopping-7.jpg);
+    background-image: url(/img/wuwy.jpg);
     image-rendering: optimizeQuality;
-    background-size: cover;
+    background-size:cover;
     height: 700px;
 }
 /*
