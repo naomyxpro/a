@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
@@ -13,13 +13,14 @@
 <body>
     <nav id="Usuario">
         <div class="logo">
-            <img src="logonegro.PNG" alt="logo" class="imglogo">
+            <img src="/img/logonegro.PNG" alt="logo" class="imglogo">
         </div>
         <div class="menu">
             <a href="index.html" class="prr">HOME</a>
             <a href="nosotros.html" class="prr">NOSOTROS</a>
             <a href="servicios.html" class="prr">SERVICIOS</a>
             <a href="contacto.html" class="prr">CONTACTO</a>
+            <a href="/pages/objetivos.html" class="prr">OBJETIVOS</a>
         </div>
     </nav>
     <div class="contcontacto">
@@ -45,23 +46,27 @@
             <div class="formcontenido">
                 <label for="asunto"class="titulo">Asunto</label>
                 <div class="in">
-                    <input type="text" name="asunto" id="asunto" class="relleno"  required placeholder="Reservación">
+                    <input type="text" name="asunto" id="asunto" class="relleno"  required placeholder="Deseo recibir más información">
                     <span id="ayuydaAsunto"></span>
                 </div>
             </div>
             <div class="formcontenido">
-                <label for="suscripcion" class="titulo">Seleccione uno:</label>
+                <label for="suscripcion" class="titulo">¿Cómo conociste WorldPet?</label>
                 <div class="in">
                     <input type="radio" name="suscripcion" id="newsPromo" value="newsPromo" checked>
-                    <label for="newsPromo">He visitado el Palacio de Sal en Uyuni dos veces o más</label>
+                    <label for="newsPromo">Los vi en Tiktok</label>
                 </div>
                 <div class="in">
                     <input type="radio" name="suscripcion" id="news" value="news">
-                    <label for="news">He visitado el Palacio de Sal en Uyuni una vez</label>
+                    <label for="news">Los vi en Facebook</label>
                 </div>
                 <div class="in">
                     <input type="radio" name="suscripcion" id="noNewsPromo" value="noNewsPromo">
-                    <label for="noNewsPromo">No he visitado el Palacio de Sal en Uyuni</label>
+                    <label for="noNewsPromo">Un amigo los recomendó</label>
+                </div>
+                <div class="in">
+                    <input type="radio" name="suscripcion" id="noNewsPromo" value="noNewsPromo">
+                    <label for="noNewsPromo">Ninguna</label>
                 </div>
             </div>
             <div class="formcontenido">
@@ -90,7 +95,7 @@
             </div>
         </form>
         <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.876329126571!2d-66.97617998515803!3d-20.305385486394638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f819ed0aafbbb%3A0x2ebd9941566daa98!2sPalacio%20de%20Sal!5e0!3m2!1ses-419!2sbo!4v1651972529180!5m2!1ses-419!2sbo" width="600" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.757716494052!2d-70.56964372527327!3d-33.58563940444669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d6e723f2a369%3A0x2773f842e8ed91be!2sWorldpet%20Alimentos%20y%20Accesorios%20para%20Mascotas!5e0!3m2!1ses!2sbo!4v1733764932054!5m2!1ses!2sbo" width="600" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
         </div>
     </div>
     <script src="scriptcontacto.js">

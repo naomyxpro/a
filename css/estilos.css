@@ -47,11 +47,11 @@ a{
 }
 .logo{
     padding-left: 20px;
-    width: 400px;
+    width: 600px;
     height: 100px;
 }
 .imglogo{
-    width: 200px;
+    width: 230px;
     height: 100px;
 }
 
@@ -88,6 +88,10 @@ footer p{
     font-family: 'Fredoka One', cursive;
     font-size: 35px;
 }
+.tituloG{
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
 .p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -115,6 +119,12 @@ footer p{
     font-size: 80px;
     color: white;
 }
+.tituloNO{
+    font-family: 'Fredoka One', cursive;
+    font-size: 80px;
+    color: black;
+    padding-left: 50px;
+}
 .pN{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
@@ -136,6 +146,28 @@ a.prr{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+}
+#abusra{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(80, 168, 250);
+}
+
+#abusto{
+
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 #info{
     background-color: rgba(255, 255, 255, 0.336);
@@ -185,14 +217,15 @@ div.gallery {
     border: 1px solid #ccc;
     float: left;
     width: 350px;
-    height: 480px;
+    height: 620px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 20px;
+    margin-bottom: 100px;
     
 }
 .contgallery{
-    height: 550px;
+    height: 670px;
 }
 div.gallery:hover {
     border: 2px solid #777;
@@ -203,6 +236,7 @@ div.gallery:hover {
 div.gallery img {
     width: 95%;
     padding: 10px;
+    max-height: 200px;
     height: auto;
     border-radius: 20px;
 }
