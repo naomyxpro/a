@@ -4,7 +4,7 @@
     
 }
 .contenedor{
-    background-image: url(/img/wuwy.jpg);
+    background-image: url(wuwy.jpg);
     image-rendering: optimizeQuality;
     background-size:cover;
     height: 700px;
